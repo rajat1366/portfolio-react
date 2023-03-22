@@ -1,0 +1,8 @@
+.scrollAnimation{
+    transform: translateY(0%); 
+    transition: transform 10s ease-in-out 0s;
+}
+
+.scrollAnimation:hover {
+    transform: translateY(-83%);
+  }
