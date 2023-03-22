@@ -10,6 +10,8 @@
     position: relative;
     transition: all 1s ease-in-out;
     width: 25rem;
+    min-width: 20rem;
+    min-height: 20rem;
   }
   
   @keyframes morph {
@@ -22,4 +24,11 @@
     100% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
+  }
+
+  .stackImage{
+    width: 2rem;
+    height: 2rem;
+    min-width: 2rem;
+    min-height: 2rem;
   }

@@ -5,12 +5,12 @@ export default function AboutMe() {
     <div className='p-10 font-sans bg-white py-24' id='about'>
        
             <div className='flex justify-center items-center  w-full'>
-                <div className='w-2/3 flex'>
-                    <div className=' w-1/2   p-6'>
-                        <img className='rounded-3xl h-full' src={workspace}></img>
+                <div className='w-2/3 lg:flex md:block'>
+                    <div className='md:w-full lg:w-1/2   p-6'>
+                        <img className='rounded-3xl h-full min-w-full' src={workspace}></img>
                     </div>
-                    <div className='w-1/2 space-y-2'>
-                            <div className='font-bold text-lg text-blue-500'>ABOUT ME</div>
+                    <div className='md:w-full lg:w-1/2 space-y-2 px-10'>
+                            <div className='font-bold text-lg text-blue-500 text-center'>ABOUT ME</div>
                             <div className='font-bold text-2xl'>
                             A dedicated Front-end Developer based in Chandigarh, India 📍
                             </div>

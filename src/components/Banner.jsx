@@ -14,8 +14,8 @@ export default function Banner() {
     
         <div className='p-10 font-sans bg-[#F9F9F9] py-24' id='home'>
             <div className=' w-full'>
-                <div className='flex justify-center items-center'>
-                    <div className='w-1/3  space-y-4'>
+                <div className='md:block lg:flex justify-center  items-center '>
+                    <div className='md:w-full lg:w-1/3  space-y-4  min-w-min'>
                             <div className='text-5xl font-bold flex-wrap inline-flex'>
                                         <div className=''>
                                             Front-End React Developer <img className=' w-14 h-14 inline-block' src={wave}></img>
@@ -40,25 +40,23 @@ export default function Banner() {
                             </div>
 
                     </div>
-                    <div className='w-1/3 flex px-10'>
+                    <div className='md:w-full lg:w-1/3 flex px-10 md:justify-center  '>
                             <div className='imageAnimation'></div>
                     </div> 
                 </div>
-                <div className='flex justify-center '>
-                    <div className='w-2/3' >
-                        <div className=' py-4 w-full '>
-                    <div className='inline-flex items-center space-x-4'> 
-                        <div className='font-semibold  text-lg'>Tech Stack | </div>
-                        <div className='space-x-4 inline-flex pl-10'>
-                            <div className='p-3 rounded-full bg-white shadow-xl'><img className='w-10 h-10' src={htmlsvg}  /></div>
-                            <div className='p-3 rounded-full bg-white shadow-xl'><img className='w-10 h-10' src={csssvg}  /></div>
-                            <div className='p-3 rounded-full bg-white shadow-xl'><img className='w-10 h-10' src={javascriptsvg}  /></div>
-                            <div className='p-3 rounded-full bg-white shadow-xl'><img className='w-10 h-10' src={reactsvg}  /></div>
-                            <div className='p-3 rounded-full bg-white shadow-xl'><img className='w-10 h-10' src={tailwindsvg}  /></div>
-                        </div>
-                        
-                    </div>
-                </div>
+                <div className='flex justify-center h-auto'>
+                    <div className='lg:w-2/3 md:w-full py-6 h-auto' >
+                            <div className='inline-flex items-center space-x-4'> 
+                                <div className='font-semibold  text-lg'>Tech Stack | </div>
+                                <div className='space-x-4 flex pl-10'>
+                                    <div className='p-3 rounded-full bg-white shadow-xl'><img className='stackImage' src={htmlsvg}  /></div>
+                                    <div className='p-3 rounded-full bg-white shadow-xl'><img className='stackImage' src={csssvg}  /></div>
+                                    <div className='p-3 rounded-full bg-white shadow-xl'><img className='stackImage' src={javascriptsvg}  /></div>
+                                    <div className='p-3 rounded-full bg-white shadow-xl'><img className='stackImage' src={reactsvg}  /></div>
+                                    <div className='p-3 rounded-full bg-white shadow-xl'><img className='stackImage' src={tailwindsvg}  /></div>
+                                </div>
+                                
+                            </div>
                     </div>
                 </div>
             </div>

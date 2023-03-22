@@ -14,15 +14,15 @@ export default function Projects() {
                     </div>
                     
                     {/* Tile 1 */}
-                    <div className='rounded-xl bg-white p-4 shadow-2xl flex'>
-                        <div className='overflow-hidden  w-3/5 h-96 rounded-xl shadow-xl'>
+                    <div className='rounded-xl bg-white p-4 shadow-2xl lg:flex md:block'>
+                        <div className='overflow-hidden md:w-full  lg:w-3/5 h-96 rounded-xl shadow-xl'>
                             <a target="_blank" href="" rel="noreferrer">
                                 <img className='scrollAnimation'  src={carrental}></img>
                             </a>
                            
                         </div>
 
-                        <div className=' w-2/5 justify-center'>
+                        <div className='md:w-full lg:w-2/5 justify-center'>
                             
                             <div className='flex   justify-center p-2 font-bold text-slate-800 text-lg'>CAR RENTAL</div>
                             <div className='flex   justify-between flex-wrap p-4 text-slate-500 font-semibold text-center text-lg'>A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.</div>
