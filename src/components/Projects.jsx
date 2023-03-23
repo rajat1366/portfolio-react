@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <div className='p-10 font-sans bg-[#F9F9F9] py-24' id='projects'>
         <div className='flex justify-center items-center  w-full'>
-                <div className='w-2/3 space-y-4 '>
+                <div className='md:w-full lg:w-2/3 space-y-4 '>
                     <div className='font-bold text-lg text-blue-500'>PORTFOLIO</div>
                     <div className='font-bold text-2xl pb-8'>
                             Each project is a unique piece of development
