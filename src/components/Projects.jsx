@@ -15,7 +15,7 @@ export default function Projects() {
                     
                     {/* Tile 1 */}
                     <div className='rounded-xl bg-white p-4 shadow-2xl lg:flex md:block'>
-                        <div className='overflow-hidden md:w-full  lg:w-3/5 h-96 rounded-xl shadow-xl'>
+                        <div className='overflow-hidden md:w-full  lg:w-3/5 h-96 rounded-xl shadow-xl pulseEffect'>
                             <a target="_blank" href="" rel="noreferrer">
                                 <img className='scrollAnimation'  src={carrental}></img>
                             </a>
