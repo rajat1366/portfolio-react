@@ -48,12 +48,12 @@ export default function Banner() {
                     <div className='md:w-full lg:w-2/3 py-6' >
                             <div className='inline-flex items-center space-x-4'> 
                                 <div className='font-semibold  text-lg'>Tech Stack  </div>
-                                <div className='space-x-4 flex flex-wrap pl-10'>
-                                    <div className='p-3 rounded-full bg-white shadow-xl'><img className='stackImage' src={htmlsvg}  /></div>
-                                    <div className='p-3 rounded-full bg-white shadow-xl'><img className='stackImage' src={csssvg}  /></div>
-                                    <div className='p-3 rounded-full bg-white shadow-xl'><img className='stackImage' src={javascriptsvg}  /></div>
-                                    <div className='p-3 rounded-full bg-white shadow-xl'><img className='stackImage' src={reactsvg}  /></div>
-                                    <div className='p-3 rounded-full bg-white shadow-xl'><img className='stackImage' src={tailwindsvg}  /></div>
+                                <div className='flex flex-wrap pl-10'>
+                                    <div className='p-3 rounded-full bg-white shadow-xl m-1'><img className='stackImage' src={htmlsvg}  /></div>
+                                    <div className='p-3 rounded-full bg-white shadow-xl m-1'><img className='stackImage' src={csssvg}  /></div>
+                                    <div className='p-3 rounded-full bg-white shadow-xl m-1'><img className='stackImage' src={javascriptsvg}  /></div>
+                                    <div className='p-3 rounded-full bg-white shadow-xl m-1'><img className='stackImage' src={reactsvg}  /></div>
+                                    <div className='p-3 rounded-full bg-white shadow-xl m-1'><img className='stackImage' src={tailwindsvg}  /></div>
                                 </div>
                                 
                             </div>

@@ -11,7 +11,7 @@ export default function Contact() {
                             Don't be shy! Hit me up! 👇
                     </div>
                     <div className='md:block lg:inline-flex  py-10 lg:space-x-16 '>
-                        <InfoTile name="Location" info="Chandigarh,India" icon={FaMapMarkedAlt}></InfoTile>
+                        <InfoTile name="Location" info="Chandigarh, India" icon={FaMapMarkedAlt}></InfoTile>
                         <InfoTile name="Mail" info="rajat1366@gmail.com" icon={FaEnvelopeOpenText}></InfoTile>
                     </div>
                 </div>
