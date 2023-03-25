@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+
+    .nav-elements {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        background-color: #ffff;
+        width: 0px;
+        height: calc(100vh - 60px);
+        transition: all 0.3s ease-in;
+        overflow: hidden;
+      }
+    
+      .nav-elements.active {
+        width: 200px;
+      }
+      .nav-elements ul {
+        display: flex;
+        flex-direction: column;
+        padding: 22px;
+      }
+    
+      .nav-elements ul li {
+        margin-right: unset;
+        margin-top: 22px;
+      }
+}
