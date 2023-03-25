@@ -1,5 +1,13 @@
-@media (max-width: 768px) {
 
+.menu-icon {
+    display: none;
+  }
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+      }
     .nav-elements {
         position: absolute;
         right: 0;

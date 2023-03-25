@@ -16,15 +16,15 @@ function NavBar() {
         <div className='font-bold'>Rajat.dev</div>
         <div className='flex-1 '></div>
         <div className='inline-flex font-semibold space-x-7 text-lg items-center'>
-            <div className="md:flex lg:hidden" onClick={handleShowNavbar}>
+            <div className="menu-icon" onClick={handleShowNavbar}>
               <GiHamburgerMenu />
             </div>
             <div className={`nav-elements ${showNavbar && 'active'}`}>
                 <ul className='flex'>
-                    <li><a href='#home'>Home</a></li>
-                    <li><a href='#about'>About</a></li>
-                    <li><a href='#projects'>Projects</a></li>
-                    <li><a href='#contact'>Contact</a></li>
+                    <li className='p-2'><a href='#home'>Home</a></li>
+                    <li className='p-2'><a href='#about'>About</a></li>
+                    <li className='p-2'><a href='#projects'>Projects</a></li>
+                    <li className='p-2'><a href='#contact'>Contact</a></li>
                 </ul>
             </div>
         </div>
